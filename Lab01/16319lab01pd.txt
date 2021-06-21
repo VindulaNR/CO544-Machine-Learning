@@ -4,20 +4,22 @@ import pandas as pd
 s = pd.Series([1,4,-2,'home'],index=['a','b','c','d'])
 s
 
+######
+The data type of the s is object
+print(s.dtype)
+
+
 
 data={'population':[1.5,1.2,2.0,1.4,0.8],'state':['Nevada','Florida','Ohio','Texas','Florida'],'year':[2003,2000,2004,1990,1994]}
 data
 
-
-# In[94]:
-
-
 df=pd.DataFrame(data,index=['one','two','three','four','five'],columns=['year','state','population','debt'])
 df
 
-
-# In[99]:
+############################################################
+reading csv
 
 
 import pandas as pd
 df=pd.read_csv('F:\6th Sem\CO544 Machine Learning\Labs\CO544-Machine-Learning\Lab01\sampleDataSet.csv')
+
