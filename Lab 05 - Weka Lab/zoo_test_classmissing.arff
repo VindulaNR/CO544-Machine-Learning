@@ -1,0 +1,42 @@
+@relation zoo
+
+@attribute animal {aardvark,antelope,bass,bear,boar,buffalo,calf,carp,catfish,cavy,cheetah,chicken,chub,clam,crab,crayfish,crow,deer,dogfish,dolphin,dove,duck,elephant,flamingo,flea,frog,fruitbat,giraffe,girl,gnat,goat,gorilla,gull,haddock,hamster,hare,hawk,herring,honeybee,housefly,kiwi,ladybird,lark,leopard,lion,lobster,lynx,mink,mole,mongoose,moth,newt,octopus,opossum,oryx,ostrich,parakeet,penguin,pheasant,pike,piranha,pitviper,platypus,polecat,pony,porpoise,puma,pussycat,raccoon,reindeer,rhea,scorpion,seahorse,seal,sealion,seasnake,seawasp,skimmer,skua,slowworm,slug,sole,sparrow,squirrel,starfish,stingray,swan,termite,toad,tortoise,tuatara,tuna,vampire,vole,vulture,wallaby,wasp,wolf,worm,wren}
+@attribute hair {false,true}
+@attribute feathers {false,true}
+@attribute eggs {false,true}
+@attribute milk {false,true}
+@attribute airborne {false,true}
+@attribute aquatic {false,true}
+@attribute predator {false,true}
+@attribute toothed {false,true}
+@attribute backbone {false,true}
+@attribute breathes {false,true}
+@attribute venomous {false,true}
+@attribute fins {false,true}
+@attribute legs numeric
+@attribute tail {false,true}
+@attribute domestic {false,true}
+@attribute catsize {false,true}
+@attribute type {mammal,bird,reptile,fish,amphibian,insect,invertebrate}
+
+@data
+slug,false,false,true,false,false,false,false,false,false,true,false,false,0,false,false,false,?
+sole,false,false,true,false,false,true,false,true,true,false,false,true,0,true,false,false,?
+sparrow,false,true,true,false,true,false,false,false,true,true,false,false,2,true,false,false,?
+squirrel,true,false,false,true,false,false,false,true,true,true,false,false,2,true,false,false,?
+starfish,false,false,true,false,false,true,true,false,false,false,false,false,5,false,false,false,?
+stingray,false,false,true,false,false,true,true,true,true,false,true,true,0,true,false,true,?
+swan,false,true,true,false,true,true,false,false,true,true,false,false,2,true,false,true,?
+termite,false,false,true,false,false,false,false,false,false,true,false,false,6,false,false,false,?
+toad,false,false,true,false,false,true,false,true,true,true,false,false,4,false,false,false,?
+tortoise,false,false,true,false,false,false,false,false,true,true,false,false,4,true,false,true,?
+tuatara,false,false,true,false,false,false,true,true,true,true,false,false,4,true,false,false,?
+tuna,false,false,true,false,false,true,true,true,true,false,false,true,0,true,false,true,?
+vampire,true,false,false,true,true,false,false,true,true,true,false,false,2,true,false,false,?
+vole,true,false,false,true,false,false,false,true,true,true,false,false,4,true,false,false,?
+vulture,false,true,true,false,true,false,true,false,true,true,false,false,2,true,false,true,?
+wallaby,true,false,false,true,false,false,false,true,true,true,false,false,2,true,false,true,?
+wasp,true,false,true,false,true,false,false,false,false,true,true,false,6,false,false,false,?
+wolf,true,false,false,true,false,false,true,true,true,true,false,false,4,true,false,true,?
+worm,false,false,true,false,false,false,false,false,false,true,false,false,0,false,false,false,?
+wren,false,true,true,false,true,false,false,false,true,true,false,false,2,true,false,false,?
